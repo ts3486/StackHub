@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.questionContainer{
+  margin-top: 150px;
+
+}
