@@ -1,5 +1,6 @@
 import React from "react"; 
 import { QuestionWrapper } from "./questionComponent_style";
+// import {connect} from "react-redux";
 
 
 interface Props {
@@ -10,9 +11,10 @@ interface Props {
 
 export const QuestionComponent: React.FC<Props> = (props: any) => {
 
+
     return(
     <QuestionWrapper>
-        <div className="questionBox" onClick={() => window.location.href}>
+        <div className="questionBox" onClick={() => window.location.href = "/question/" + props.question}>
             <h1>{props.question}</h1>
         </div>
     </QuestionWrapper>
@@ -25,4 +27,4 @@ export const QuestionComponent: React.FC<Props> = (props: any) => {
 //     }
 // }
 
-export default QuestionComponent;
+export default (QuestionComponent);

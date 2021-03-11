@@ -5,7 +5,8 @@ export const HomeWrapper = styled.div`
 h1{
     display: flex;
     justify-content: center;
-    margin: 50px;
+    margin: 30px;
+
 }
 
 .questionBox{
@@ -15,12 +16,17 @@ h1{
     margin: 25px 400px 25px 400px
 }
 
-form {
+.pageContainer{
+    
+}
+
+button{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px;
+    margin: 20px 60px 20px 600px;
+    width: 200px;
 }
 
 `
